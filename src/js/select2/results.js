@@ -159,7 +159,7 @@ define([
 
   Results.prototype.option = function (data) {
     var option = document.createElement('li');
-    option.className = 'select2-results__option';
+    option.className = 'select2-results__option needsclick';
 
     var attrs = {
       'role': 'treeitem',
